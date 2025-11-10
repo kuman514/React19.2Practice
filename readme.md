@@ -22,6 +22,7 @@ React 19.2에서 새로 추가된 기능을 학습하기 위해 만든 레포지
         ```typescript
         const [isKoishi, setIsKoishi] = useState<boolean>(false);
         return isKoishi ? <Components...> : null;
+        // 렌더링되는 컴포넌트는 숨겨질 때 컴포넌트가 언마운트되어 상태가 파괴된다.
         ```
         - .
       - `Activity`로 감싸진 코드
@@ -33,6 +34,7 @@ React 19.2에서 새로 추가된 기능을 학습하기 위해 만든 레포지
             <Components...>
           </Activity>
         );
+        // 렌더링되는 컴포넌트는 숨겨질 때에도 상태가 유지된다.
 
         ```
 
