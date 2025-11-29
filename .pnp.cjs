@@ -34,7 +34,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:19.2.2"],\
           ["@vitejs/plugin-react", "virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:5.1.0"],\
           ["eslint", "virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:9.39.1"],\
-          ["eslint-plugin-react-hooks", "virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:5.2.0"],\
+          ["eslint-plugin-react-hooks", "virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:6.1.1"],\
           ["eslint-plugin-react-refresh", "virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:0.4.24"],\
           ["globals", "npm:16.5.0"],\
           ["react", "npm:19.2.0"],\
@@ -1904,19 +1904,23 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["eslint-plugin-react-hooks", [\
-      ["npm:5.2.0", {\
-        "packageLocation": "../../../.yarn/berry/cache/eslint-plugin-react-hooks-npm-5.2.0-1c4af50caf-10c0.zip/node_modules/eslint-plugin-react-hooks/",\
+      ["npm:6.1.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/eslint-plugin-react-hooks-npm-6.1.1-fb47796758-10c0.zip/node_modules/eslint-plugin-react-hooks/",\
         "packageDependencies": [\
-          ["eslint-plugin-react-hooks", "npm:5.2.0"]\
+          ["eslint-plugin-react-hooks", "npm:6.1.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:5.2.0", {\
-        "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-hooks-virtual-5bacaf89b6/4/.yarn/berry/cache/eslint-plugin-react-hooks-npm-5.2.0-1c4af50caf-10c0.zip/node_modules/eslint-plugin-react-hooks/",\
+      ["virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:6.1.1", {\
+        "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-hooks-virtual-72d596d233/4/.yarn/berry/cache/eslint-plugin-react-hooks-npm-6.1.1-fb47796758-10c0.zip/node_modules/eslint-plugin-react-hooks/",\
         "packageDependencies": [\
+          ["@babel/core", "npm:7.28.5"],\
+          ["@babel/parser", "npm:7.28.5"],\
           ["@types/eslint", null],\
           ["eslint", "virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:9.39.1"],\
-          ["eslint-plugin-react-hooks", "virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:5.2.0"]\
+          ["eslint-plugin-react-hooks", "virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:6.1.1"],\
+          ["zod", "npm:4.1.13"],\
+          ["zod-validation-error", "virtual:72d596d233ff5de5ddf70550262d73cf7d6c5b8cfeca3d0aca03b936a4e23f846c82bd243745944f88ced39c40eb359af3a3bcb54ae6b94176b54b519b1fef9e#npm:4.0.2"]\
         ],\
         "packagePeers": [\
           "@types/eslint",\
@@ -3461,7 +3465,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:19.2.2"],\
           ["@vitejs/plugin-react", "virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:5.1.0"],\
           ["eslint", "virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:9.39.1"],\
-          ["eslint-plugin-react-hooks", "virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:5.2.0"],\
+          ["eslint-plugin-react-hooks", "virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:6.1.1"],\
           ["eslint-plugin-react-refresh", "virtual:dc23cf8b9c47c478c1e22da996c217a7cb8d51119a184fee2dc5600f5fa7e01223f890c2d2e9da5daa1659bd5fd8e2a4ec7ceaca7da9ee7f9c69ea5329f83920#npm:0.4.24"],\
           ["globals", "npm:16.5.0"],\
           ["react", "npm:19.2.0"],\
@@ -3551,6 +3555,37 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/yocto-queue-npm-0.1.0-c6c9a7db29-10c0.zip/node_modules/yocto-queue/",\
         "packageDependencies": [\
           ["yocto-queue", "npm:0.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["zod", [\
+      ["npm:4.1.13", {\
+        "packageLocation": "../../../.yarn/berry/cache/zod-npm-4.1.13-21040ff0ef-10c0.zip/node_modules/zod/",\
+        "packageDependencies": [\
+          ["zod", "npm:4.1.13"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["zod-validation-error", [\
+      ["npm:4.0.2", {\
+        "packageLocation": "../../../.yarn/berry/cache/zod-validation-error-npm-4.0.2-1b963160c8-10c0.zip/node_modules/zod-validation-error/",\
+        "packageDependencies": [\
+          ["zod-validation-error", "npm:4.0.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:72d596d233ff5de5ddf70550262d73cf7d6c5b8cfeca3d0aca03b936a4e23f846c82bd243745944f88ced39c40eb359af3a3bcb54ae6b94176b54b519b1fef9e#npm:4.0.2", {\
+        "packageLocation": "./.yarn/__virtual__/zod-validation-error-virtual-a238895f30/4/.yarn/berry/cache/zod-validation-error-npm-4.0.2-1b963160c8-10c0.zip/node_modules/zod-validation-error/",\
+        "packageDependencies": [\
+          ["@types/zod", null],\
+          ["zod", "npm:4.1.13"],\
+          ["zod-validation-error", "virtual:72d596d233ff5de5ddf70550262d73cf7d6c5b8cfeca3d0aca03b936a4e23f846c82bd243745944f88ced39c40eb359af3a3bcb54ae6b94176b54b519b1fef9e#npm:4.0.2"]\
+        ],\
+        "packagePeers": [\
+          "@types/zod",\
+          "zod"\
         ],\
         "linkType": "HARD"\
       }]\
